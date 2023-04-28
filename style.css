@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none ;
+    font-family: 'Lora', serif;
+}
+
+@media screen and(max-width:992px)
+{
+    body{
+        width:50% 
+    }
+}
+@media screen and(max-width:768px)
+{
+    body{
+        width:50%
+    }
+}
+@media screen and(max-width:576px)
+{
+    body{
+        width:50% 
+    }
+}
+
+body{ 
+    background-color: #BEAFC2; 
+
+}
+.main-conten{
+    min-height: 100vh ;
+    width: 80% ;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+/*Left Section*/
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color:  #281C2D;
+}
+.left-content{
+    padding:1rem 2rem;
+}
+
+
+.info{
+    width:100%;
+    border-bottom: 1px solid  #979297;
+}
+.info img{
+    width:100%; 
+    border-radius: 50%;
+    border:5px solid  #979297;
+    
+}
+.main-title{
+    color: #adaaad;
+    letter-spacing: 1px;
+    font-size: 1.5rem; 
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+.name {
+    font-size: 2rem;
+    color: #adaaad;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+
+}
+.career{
+    font-size: 1.7rem;
+    color: #adaaad;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom:2rem;
+    padding-bottom: 0.5rem #979297;
+}
+
+.aims-objectives-Paragraph
+{
+    color: #adaaad;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-bottom:1rem;
+    border-bottom: 1px solid #979297 ;
+   
+}
+.Contact-info ul {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding-bottom: 0.5rem;
+}
+.Contact-info li {
+    font-size: 1rem;
+    color:#979297;
+    letter-spacing: 1px;
+    padding-bottom: 0.5rem;
+  
+}
+.Contact-info i {
+
+    color:#e7d6d6;
+    padding-right: 0.2rem;
+   
+}
+
+
+
+/* Right Side*/
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color:#f4f4f4;
+}
+.right-title{
+    color: #adaaad;
+    letter-spacing: 1px;
+    font-size: 150%;
+    text-decoration: underline; 
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left:3%
+   
+
+}
+.Education{
+    font-size: 120%;
+    color:#3d2b45;
+    padding-left: 5%;
+   
+}
+.Courses {
+    font-size: 120%;
+    color:#3d2b45;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.Skills-Section li{ 
+    
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+    color:#3d2b45;
+    padding-left: 5%;
+    padding-right: 60%;
+
+  
+}
+.knowledge-bar{
+   
+    width: 100%;
+    height: 0.4rem;
+    background-color: #3d2b45;
+    position: relative;
+    
+}
+.java-knowledge{
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+    
+}
+.C-knowledge{
+    height: 100%;
+    width: 55%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+}
+.Python-knowledge{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+}
+.HTML-knowledge{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+}
+.CSS-knowledge{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+}
+.Language-Section li{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color:#3d2b45;
+    padding-left: 5%;
+    padding-right: 60%; 
+    padding-bottom: 2%;
+
+    
+}
+.Language-knowledge-bar{
+    width: 100%;
+    height: 0.4rem;
+    
+    background-color: #3d2b45;
+    position:relative;
+}
+.Arabic-knowledge{
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+    
+}
+.English-knowledge{
+    height: 100%;
+    width: 95%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+}
+.French-knowledge{
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    left: 0;
+    background-color: #e7d6d6;
+}
+
+.Projects-section{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color:#3d2b45;
+    padding-left: 2%;
+}
+.Projects{
+    font-size: 16px;
+    padding-top: 6px;
+    padding-left: 6.5%;
+    color: #c7b8b8;
+}
